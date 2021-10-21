@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aws-lambda-databricks"
+version = "0.1.0"
+description = ""
+authors = ["nichmorgan-loft <nich.morgan@loft.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyspark = "^3.2.0"
+boto3 = "^1.19.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-mock = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
